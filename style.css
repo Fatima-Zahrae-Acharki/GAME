@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    
+    background-image: url(download\ \(3\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cont{
+    background-color: rgb(235, 255, 235);
+    border: 5px solid rgb(100, 0, 139);
+    border-radius: 40px;
+    height: 345px;
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 59px;
+    font-family: 'Minecraft Evenings';
+    font-size: 60px;
+    color: rgb(100, 0, 139);
+    letter-spacing: 7px;
+    text-shadow: 8px 8px 8px  rgb(0, 0, 0);
+}
+#h2{
+    margin-top: 36px;
+    font-family: 'Minecraft Evenings';
+    font-size: 25px;
+    text-shadow: 5px 5px 5px rgb(105, 105, 105);
+}
+#outputTxt{
+    margin-top: 27px;
+    font-size: 20px;
+    font-family: 'Minecraft Evenings';
+    text-shadow: 5px 5px 5px rgb(105, 105, 105);
+}
+#nb{
+    font-family: 'Minecraft Evenings';
+    /* margin-top: -160px; */
+    margin-top: -140px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(105, 105, 105);
+}
+input[type="number"]
+{
+    /* margin-top: 134px; */
+    margin-top: 95px;
+    border: rgb(0, 0, 0) solid 2px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Minecraft Evenings';
+
+}
+#btn
+
+{
+    margin-top: 30px;
+    height: 30px;
+    width: 61px;
+    border-radius: 5px ;
+    font-family: 'Minecraft Evenings';
+    margin-left: 40px;
+    background-color: darkgreen;
+    border: rgb(0, 0, 0) solid 2px;
+    outline: none;
+    color: white;
+    
+}
+#btn:hover
+{
+    background-color: rgb(0, 160, 0);
+    height: 35px;
+    width: 66px;
+    color: #000;
+}
+img
+{
+    margin-left: 576px;
+    margin-top: -178px;
+    
+}
+.msgs
+{
+    /* margin-top: 49px; */
+    margin-top: 107px;
+    font-family: 'Minecraft Evenings';
+    font-size: 17px;
+}

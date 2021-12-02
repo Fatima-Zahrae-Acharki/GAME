@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <audio controls>
+    <source src="c418 minecraft.mp3" type="audio/mpeg" >
+
+  </audio>
+  <title>Guessing Game</title>
+</head>
+<body>
+  <h1>Guessing Game</h1>
+  <div id="cont">
+    <span id="numCOLOR" style="display:none">0</span>
+    
+    <p id="h2">Guess a number between 1 and 100</p>
+    <p id="outputTxt">Enter a number between 1 and 100 </p>
+
+    <input  type="number" placeholder="num" id="number">
+    <button id="btn" onclick="random()">ENTER</button>
+
+    <img src="steve.gif" height="200px">
+
+    <div id="nu">
+      <p id="nb"><span id="numbr">10</span>/10</p>
+    </div>
+    <div class="msgs">
+      <p id="msg2"></p>
+      <p id="msg3"></p>
+    </div>
+  </div>
+ 
+  <script src="java.js"></script>
+</body>
+</html>
